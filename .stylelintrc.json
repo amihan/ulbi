@@ -1,0 +1,12 @@
+{
+  "extends": "stylelint-config-standard-scss",
+  "plugins": [
+    "stylelint-scss",
+    "stylelint-order",
+    "stylelint-declaration-block-no-ignored-properties"
+  ],
+  "rules": {
+    "indentation": [4],
+    "selector-class-pattern": null
+  }
+}
