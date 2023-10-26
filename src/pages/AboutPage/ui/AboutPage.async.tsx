@@ -1,4 +1,5 @@
 import { lazy } from 'react';
 
-//@ts-ignore
-export const AboutPageAsync = lazy(() => import('./AboutPage'));
+// @ts-expect-error
+// eslint-disable-next-line no-return-await
+export const AboutPageAsync = lazy(async () => await import('./AboutPage'));

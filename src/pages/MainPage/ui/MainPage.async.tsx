@@ -1,4 +1,4 @@
 import { lazy } from 'react';
 
-// @ts-ignore
-export const MainPageAsync = lazy(() => import('./MainPage'));
+// @ts-expect-error
+export const MainPageAsync = lazy(async () => await import('./MainPage'));
