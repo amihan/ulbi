@@ -37,7 +37,7 @@ module.exports = {
         'max-len': ['error', {
             ignoreComments: true,
         }],
-
+        'linebreak-style': ['error', 'windows'],
     },
     globals: {
         __IS_DEV__: true,
