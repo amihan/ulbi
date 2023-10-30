@@ -1,5 +1,5 @@
 import './styles/index.scss';
-import { classNames } from 'shared/lib/className';
+import { classNames } from 'shared/lib/className/className';
 import { Navbar } from 'widgets/Navbar';
 import { Sidebar } from 'widgets/Sidebar';
 import { Suspense } from 'react';

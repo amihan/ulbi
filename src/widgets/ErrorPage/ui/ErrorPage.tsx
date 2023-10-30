@@ -1,5 +1,5 @@
 import { useTranslation } from 'react-i18next';
-import { classNames } from 'shared/lib/className';
+import { classNames } from 'shared/lib/className/className';
 import { Button } from 'shared/ui/Button';
 import cls from './ErrorPage.module.scss';
 
